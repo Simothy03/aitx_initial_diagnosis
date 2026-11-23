@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Case Diagnosis Summary</title>
+  <style>
+    body { font: 16px/1.5 system-ui, sans-serif; margin: 2rem auto; padding: 0 1rem; max-width: 1100px; color: #202124; }
+    h1 { font-size: 1.6rem; }
+    .note { color: #555; margin-bottom: 1.25rem; }
+    .table-wrap { overflow-x: auto; }
+    table { border-collapse: collapse; width: 100%; min-width: 760px; }
+    th, td { border: 1px solid #d5d9de; padding: .75rem; text-align: left; vertical-align: top; }
+    th { background: #f2f5f8; }
+    tbody tr:nth-child(even) { background: #fafbfc; }
+    code { white-space: nowrap; }
+  </style>
+</head>
+<body>
+  <h1>Case Diagnosis Summary</h1>
+  <p class="note">Simple, provisional matches based on the supplied case summaries and variants. A gene match alone does not confirm that a specific variant is disease-causing.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Case</th>
+          <th>What was provided</th>
+          <th>Simple diagnosis</th>
+          <th>Reasoning</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>AITX-40001</td>
+          <td>3-year-old male; seizures began in the first months of life; developmental and intellectual delay. <strong>ACTL6B</strong>: <code>NM_016188.5:c.1099dup</code>, <code>p.(Gln367ProfsTer48)</code>, homozygous.</td>
+          <td>ACTL6B-related developmental and epileptic encephalopathy (DEE76)</td>
+          <td>Infant-onset seizures and developmental impairment fit the reported recessive ACTL6B disorder spectrum; the homozygous frameshift is consistent with that inheritance pattern.</td>
+        </tr>
+        <tr>
+          <td>AITX-40002</td>
+          <td>7-year-old male; hypotonia, mild motor delay, nystagmus, spasticity, increasingly frequent/intense tremor episodes; de novo variant. <strong>ITPR1</strong>: <code>NM_001378452.1:c.100G&gt;A</code>, <code>p.Asp34Asn</code>, heterozygous.</td>
+          <td>Possible ITPR1-related neurodevelopmental/movement disorder; SCA29 spectrum is a broad match</td>
+          <td>ITPR1 disorders can involve childhood motor delay, hypotonia, abnormal eye movements, and movement/coordination problems. The exact variant’s disease significance is uncertain from the information reviewed.</td>
+        </tr>
+        <tr>
+          <td>AITX-40003</td>
+          <td>14-year-old male; slowly progressive lower-limb sensory loss, weight loss/poor intake, positive Gower sign. <strong>SPTLC1</strong>: <code>NM_006415.4:c.116T&gt;A</code>, <code>p.Leu39His</code>, heterozygous.</td>
+          <td>Possible SPTLC1-related hereditary sensory neuropathy (HSN1A)</td>
+          <td>Progressive sensory loss is compatible with SPTLC1-related neuropathy, which can later include weakness. The exact variant’s disease significance is uncertain, and the weight loss and Gower sign need broader interpretation.</td>
+        </tr>
+        <tr>
+          <td>AITX-40004</td>
+          <td>18-month-old female with hypotonia, ophthalmic abnormalities, developmental delay, EEG abnormalities without overt seizures; de novo variant. <strong>SYT1</strong>: <code>NM_005639.3:c.1103T&gt;C</code>, <code>p.Ile368Thr</code>, heterozygous.</td>
+          <td>Baker–Gordon syndrome (BAGOS; SYT1-associated neurodevelopmental disorder)</td>
+          <td>The supplied diagnosis and phenotype fit BAGOS, and this specific SYT1 variant has been reported in association with the syndrome.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
